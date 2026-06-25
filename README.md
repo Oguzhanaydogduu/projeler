@@ -1,0 +1,2 @@
+# projeler
+VeriAnaliz
