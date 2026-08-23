@@ -2,12 +2,12 @@
 ### 📂 Projeler ve Yetkinlikler
 
 #### 1. Perakende Satış Analitiği & İstatistiksel Modelleme (`ANALİZ MARKET/`)
-* **Veri:** 45 mağazaya ait 6.435 satırlık haftalık satış verisi (`Walmart_Sales.csv`).
+* **Veri Kaynağı:** 45 mağazaya ait 6.435 satırlık haftalık satış verisi (`Walmart_Sales.csv`).
 * **Python / EDA:** `Pandas`, `Matplotlib`, `Seaborn`, `SciPy` ve `Statsmodels` ile keşifsel veri analizi, çoklu regresyon, VIF analizi, hareketli ortalamalar ve hipotez testleri.
 * **Raporlama:** Bulguların ve çıkarımların dokümante edildiği detaylı akademik özet rapor (`analysis_report.md`).
 
 #### 2. Power BI Dashboard & DAX Modelleme (`walmart.pbix`)
-* **Veri Kaynağı:** Walmart haftalık satış verisi (6.435 satır, 45 mağaza, 2010–2012).
+* **Veri Kaynağı:** 45 mağazaya ait 6.435 satırlık haftalık satış verisi (`Walmart_Sales.csv`).
 * **Power Query & ETL:** Veri temizleme adımları (yerel/ondalık ayracı hatasının kök neden tespiti ve düzeltilmesi, tarih tipleme), hesaplanan sütunlar (`Year`, `Month`, `Quarter`, `Holiday Category`).
 * **DAX Ölçüleri:** `CALCULATE`, `DIVIDE`, `SWITCH` fonksiyonları; `DATEADD` kısıtına alternatif olarak `MAX()` tabanlı özel zaman karşılaştırma mantığıyla geliştirilen dinamik `Sales Growth %` ölçüsü.
 * **Dashboard Tasarımı:** 3 sayfalık interaktif yönetici paneli (KPI kartları, zaman serisi trendi, Top/Bottom 10 mağaza karşılaştırması, tatil vs. normal dönem satış kırılımları, dinamik filtreleme/slicer yapıları).
